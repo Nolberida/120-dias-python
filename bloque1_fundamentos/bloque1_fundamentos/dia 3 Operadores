@@ -1,0 +1,68 @@
+a = 17
+b = 5
+dulces = 53
+ninos = 7
+edad = 31
+
+# ejercicio 1
+
+print(f"{a} + {b} = {a + b}")
+
+# 22
+
+print(f"{a} - {b} = {a - b}")
+
+# 12
+
+print(f"{a} * {b} = {a * b}")
+
+# 85
+
+print(f"{a} / {b} = {a / b}")
+
+# 3.4
+
+print(f"{a} // {b} = {a // b}")
+
+# 3
+
+print(f"{a} % {b} = {a % b}")
+
+# 2
+
+print(f"{a} ** {b} = {a ** b}")
+
+# 1419857
+
+
+# ejercicio 2
+
+print(
+    f"A cada nino le tocan {dulces // ninos} dulces y sobran {dulces % ninos}")
+
+
+# ejercicio 3
+print(f"Es mayor de edad {edad >= 18}?")
+
+print(f"es exactamente 30? {edad == 30}")
+
+print(f" es diferente de 30? {edad != 30}")
+
+print(f" Esta entre 25 y 35 {edad >= 25 and edad <= 35}")
+
+
+# ejercicio 4
+print(10 / 2)          # predicción: 5.0
+print(10 // 2)         # predicción: 5
+print(7 % 7)           # predicción: 0
+print(2 ** 3 ** 2)     # predicción: 512
+print(10 - 4 * 2)      # predicción: 2
+print(not True or False)  # predicción:
+
+
+# ejercicio 5
+
+dias = int(input("introduce los dias: "))
+semana = 7
+
+print(input(f"Son {dias // semana} semanas y sobran {dias % semana} dias "))

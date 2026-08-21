@@ -20,13 +20,13 @@ print(f"en 10 años tendre {edad + 10} y mi estatura sera {estatura * 100} cm")
 # ejercicio 3
 
 print(f"promedio de ventas: {promedio_ventas:.2f}")
-print(f"promedio de ventas: {promedio_ventas: .1f}")
-print(f"promedio de ventas: {promedio_ventas: .0f}")
+print(f"promedio de ventas: {promedio_ventas:.1f}")
+print(f"promedio de ventas: {promedio_ventas:.0f}")
 
 
 # 2236.57
-# 2236.5
-# 2236
+# 2236.6
+# 2237
 
 
 # ejemplo 4
